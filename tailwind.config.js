@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         'noto-sans': ['Noto Sans', 'serif']
-      }
+      },
     },
   },
   plugins: [],
