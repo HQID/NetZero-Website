@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar {
+    scrollbar-width: none; /* Untuk Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Untuk Chrome, Safari, dan Edge */
+}

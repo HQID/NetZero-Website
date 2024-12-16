@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth font-noto-sans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logo/logo512.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>NetZero</title>
+</head>
+<body class="px-12 bg-gray">
+
+    <!-- NAV START -->
+    <header class="mt-6 mb-36 relative">
+        <nav class="py-4 px-12 bg-white flex justify-between rounded-2xl text-dark items-center fixed top-[20px] z-50 w-[94%] left-[50%] translate-x-[-50%] shadow-lg">
+            <div class="flex items-center gap-2 cursor-grab">
+                <img src="assets/logo/logo512.png" alt="" class="w-10 h-10">
+                <h1 class="text-2xl font-bold">NetZero</h1>
+            </div>
+            <ul class="flex gap-24 color-dark text-xl font-semibold justify-center">
+                <a href="index.html"><li class="py-2 px-6 rounded-2xl cursor-pointer hover:bg-primary transition ease-in-out duration-300">Home</li></a>
+                <a href="#hero"><li class="py-2 px-6 rounded-2xl cursor-pointer bg-primary transition ease-in-out duration-300">Service</li></a>
+                <a href="contact.html"><li class="py-2 px-6 rounded-2xl cursor-pointer hover:bg-primary transition ease-in-out duration-300">Contact us</li></a>
+            </ul>
+            <button class="py-2 px-5 border-2 font-semibold rounded-3xl text-lg hover:text-white hover:border-dark hover:bg-dark text-center transition ease-in-out duration-300">Buy Offset</button>
+        </nav>
+    </header>
+    <!-- NAV END -->
+
+    <!-- HERO SECTION START-->
+    <section class="flex relative rounded-2xl w-full h-[70vh] bg-cover bg-center text-white mb-12 shadow-lg" style="background-image: url('assets/img/project.jpg');" id="hero">
+        <div class="absolute inset-0 bg-black opacity-30 rounded-2xl"></div>
+        <div class="relative z-10 text-white p-12 flex flex-col self-end gap-8 w-3/4">
+            <h1 class="text-4xl font-bold">"Customized Solutions for Your Business Sustainability"</h1>
+            <p class="ml-4 text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic illo nemo quidem maiores fuga consectetur eius laboriosam excepturi perferendis tempore.</p>
+          </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- SERVICES SECTION START -->
+    <section class="bg-white text-dark rounded-2xl p-12 flex flex-col gap-12 px-24 mb-12 shadow-lg">
+        <h2 class="text-center text-4xl font-semibold">Main Services</h2>
+        <div class="flex gap-12 w-full justify-center flex-wrap">
+            <div class="bg-primary text-dark flex-shrink-0 w-2/5 rounded-xl flex flex-col">
+                <img src="assets/img/data.jpg" alt="" class="rounded-tl-xl rounded-tr-xl">
+                <div class="p-6 flex flex-col gap-6 pb-8">
+                    <h3 class="text-xl font-bold">Carbon Audit (Audit Karbon)</h3>
+                    <em>"Dapatkan wawasan mendalam tentang jejak karbon perusahaan Anda melalui audit yang komprehensif. Kami akan membantu Anda mengidentifikasi area yang perlu diperbaiki dan memberikan rekomendasi untuk pengurangan emisi."</em>
+                    <button class="self-end py-3 px-4 border-2 font-semibold text-lg rounded-3xl bg-dark text-white hover:opacity-80 hover:shadow-lg transition duration-300 text-center mb-4">Start Your Carbon Audit</button>
+                </div>
+            </div>
+            <div class="bg-primary text-dark flex-shrink-0 w-2/5 rounded-xl flex flex-col">
+                <img src="assets/img/emition.jpg" alt="" class="rounded-tl-xl rounded-tr-xl">
+                <div class="p-6 flex flex-col gap-6">
+                    <h3 class="text-xl font-bold">Offset Program (Program Offset)</h3>
+                    <em>"Kompensasi emisi karbon Anda melalui proyek penghijauan dan energi terbarukan. Kami menghubungkan Anda dengan proyek yang dapat mengimbangi jejak karbon yang dihasilkan oleh bisnis Anda."</em>
+                    <button class="self-end py-3 px-4 border-2 font-semibold text-lg rounded-3xl bg-dark text-white hover:opacity-80 hover:shadow-lg transition duration-300 text-center mb-4">Explore Offset Projects</button>
+                </div>
+            </div>
+            <div class="bg-primary text-dark flex-shrink-0 w-2/5 rounded-xl flex flex-col">
+                <img src="assets/img/energy.jpg" alt="" class="rounded-tl-xl rounded-tr-xl">
+                <div class="p-6 flex flex-col gap-6">
+                    <h3 class="text-xl font-bold">Energy Efficiency Plan (Strategi Efisiensi Energi)</h3>
+                    <em>"Kami membantu bisnis mengurangi penggunaan energi dan biaya operasional melalui solusi efisiensi energi yang disesuaikan. Solusi kami termasuk audit energi, perbaikan infrastruktur, dan lebih banyak lagi."</em>
+                    <button class="self-end py-3 px-4 border-2 font-semibold text-lg rounded-3xl bg-dark text-white hover:opacity-80 hover:shadow-lg transition duration-300 text-center mb-4">Schedule a Free Consultation</button>
+                </div>
+            </div>
+            <div class="bg-primary text-dark flex-shrink-0 w-2/5 rounded-xl flex flex-col">
+                <img src="assets/img/consul.jpg" alt="" class="rounded-tl-xl rounded-tr-xl">
+                <div class="p-6 flex flex-col gap-6">
+                    <h3 class="text-xl font-bold">Renewable Energy Consultation (Konsultasi Energi Terbarukan)</h3>
+                    <em>"Mendapatkan konsultasi untuk beralih ke sumber energi terbarukan, seperti panel surya atau angin. Kami membantu Anda merencanakan dan mengimplementasikan transisi energi yang ramah lingkungan untuk masa depan yang lebih hijau."</em>
+                    <button class="self-end py-3 px-4 border-2 font-semibold text-lg rounded-3xl bg-dark text-white hover:opacity-80 hover:shadow-lg transition duration-300 text-center mb-4">Learn More About Efficiency Plans</button>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+    <!-- SERVICES SECTION END -->
+
+    <!-- FAQ SECTION START -->
+    <section class="bg-white text-dark rounded-2xl p-12 flex flex-col gap-12 px-24 mb-12 shadow-lg">
+        <h2 class="text-center text-4xl font-semibold">FAQ</h2>
+        <div class="flex gap-12 w-full justify-center flex-wrap mb-6">
+            <div class="bg-primary text-dark w-1/4 rounded-xl flex flex-col gap-2 pb-8 p-6 ">
+                <div class="bg-white w-16 h-16 flex items-center justify-center rounded-full">
+                    <i class="fa-solid fa-user text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-bold">Bagaimana proses audit karbon bekerja?</h3>
+                <p class="text-sm italic">"Audit karbon kami dimulai dengan pengumpulan data operasional dari perusahaan Anda, seperti konsumsi energi, transportasi, dan limbah. Kami kemudian menghitung jejak karbon menggunakan metode standar internasional dan memberikan laporan rinci beserta rekomendasi pengurangan emisi."</p>
+            </div>
+            <div class="bg-primary text-dark w-1/4 rounded-xl flex flex-col gap-2 pb-8 p-6 ">
+                <div class="bg-white w-16 h-16 flex items-center justify-center rounded-full">
+                    <i class="fa-solid fa-user text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-bold">Berapa lama waktu yang dibutuhkan untuk audit karbon?</h3>
+                <p class="text-sm italic">"Durasi audit tergantung pada ukuran dan kompleksitas bisnis Anda. Biasanya, proses ini memakan waktu antara 2 hingga 6 minggu."</p>
+            </div>
+            <div class="bg-primary text-dark w-1/4 rounded-xl flex flex-col gap-2 pb-8 p-6 ">
+                <div class="bg-white w-16 h-16 flex items-center justify-center rounded-full">
+                    <i class="fa-solid fa-user text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-bold">Apakah layanan ini cocok untuk usaha kecil?</h3>
+                <p class="text-sm italic">"Tentu saja! Layanan kami dirancang untuk membantu bisnis dari semua skala, termasuk usaha kecil dan menengah."</p>
+            </div>
+            <div class="bg-accent text-dark w-1/4 rounded-xl flex flex-col gap-2 pb-8 p-6 ">
+                <div class="bg-white w-16 h-16 flex items-center justify-center rounded-full">
+                    <i class="fa-solid fa-user text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-bold">Apa manfaat offset karbon bagi bisnis saya?</h3>
+                <p class="text-sm italic">"Offset karbon membantu bisnis Anda mencapai netralitas karbon dengan mengimbangi emisi yang tidak dapat dihilangkan. Selain meningkatkan reputasi merek, ini juga menunjukkan komitmen Anda terhadap keberlanjutan."</p>
+            </div>
+            <div class="bg-accent text-dark w-1/4 rounded-xl flex flex-col gap-2 pb-8 p-6 ">
+                <div class="bg-white w-16 h-16 flex items-center justify-center rounded-full">
+                    <i class="fa-solid fa-user text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-bold">Bagaimana offset karbon dilakukan?</h3>
+                <p class="text-sm italic">"Offset dilakukan melalui investasi dalam proyek ramah lingkungan seperti penghijauan, energi terbarukan, atau pengelolaan limbah. Kami bekerja sama dengan proyek bersertifikasi untuk memastikan dampaknya nyata."</p>
+            </div>
+            <div class="bg-accent text-dark w-1/4 rounded-xl flex flex-col gap-2 pb-8 p-6 ">
+                <div class="bg-white w-16 h-16 flex items-center justify-center rounded-full">
+                    <i class="fa-solid fa-user text-4xl"></i>
+                </div>
+                <h3 class="text-lg font-bold">Apakah program offset ini bersertifikat?</h3>
+                <p class="text-sm italic">"Ya, semua program offset karbon kami memiliki sertifikasi internasional seperti Verified Carbon Standard (VCS) atau Gold Standard."</p>
+            </div>
+        </div>        
+
+    </section>
+    <!-- CLIENT SECTION END -->
+
+    <!-- FOOTER START -->
+     <footer class="bg-primary-dark text-white rounded-tr-2xl rounded-tl-2xl py-16 flex flex-row gap-12 px-24 shadow-lg justify-between flex-wrap">
+        <div class="flex flex-col gap-4 font-semibold">
+            <h1 class="text-4xl font-bold">NetZero</h1>
+            <em class="w-3/4">Ready to Make a Difference? Contact Us Today!</em>
+            <p class="text-xl ml-1">net0@gmail.com</p>
+            <p class="text-xl ml-1">Jakarta, Indonesia</p>
+        </div>
+        <div class="flex flex-col gap-6 font-semibold">
+            <h2 class="text-2xl font-bold">Navigation</h2>
+            <ul class="flex gap-4 color-dark text-xl font-semibold justify-center flex-col ml-1">
+                <li class="cursor-pointer"><a href="index.html">Home</a></li>
+                <li class="cursor-pointer"><a href="#hero">Service</a></li>
+                <li class="cursor-pointer"><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-8 font-semibold">
+            <h2 class="text-2xl font-bold text-center">Social Media</h2>
+            <div class="flex gap-8">
+                <i class="fa-brands fa-facebook text-4xl cursor-pointer"></i>
+                <i class="fa-brands fa-instagram text-4xl cursor-pointer"></i>
+                <i class="fa-brands fa-linkedin text-4xl cursor-pointer"></i>
+                <i class="fa-brands fa-square-x-twitter text-4xl cursor-pointer"></i>
+            </div>
+        </div>
+     </footer>
+    <!-- FOOTER END -->
+</body>
+</html>
